@@ -60,7 +60,7 @@ fn draw_dot(root: NodeIndex, graph: &DiGraph<Node, ()>) -> String {
     format!("digraph {{\n{}\n}}", dot_output)
 }
 
-fn main() {
+fn mains() {
     // Создаем граф и добавляем узлы
     let mut graph = DiGraph::new();
 
